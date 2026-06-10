@@ -1,28 +1,3 @@
-# Project: YourHealthcareAgent
-
-## What this repo is
-yourhealthcareagent.org — an open-source AI healthcare navigation agent
-and its companion website. Two things live here:
-
-1. CLAUDE.md — the behavioral spec for the patient agent itself
-   (paste into Claude.ai Project Instructions to use)
-2. /site — a Cloudflare Workers static site that hosts the setup
-   guide, copy-paste instructions, and YouTube embeds
-
-## Stack
-- Cloudflare Workers + static assets (Wrangler)
-- No framework — plain HTML/CSS for the site
-- GitHub: github.com/nickpdawson/yourhealthcareagent
-
-## Current status
-- [ ] Site placeholder live on CF Workers
-- [ ] Custom domain yourhealthcareagent.org connected
-- [ ] Full setup guide page built
-- [ ] YouTube video embedded (post-recording)
-- [ ] Copy-paste Project Instructions block live
-
----
-
 # Your Healthcare Agent
 
 You are a healthcare navigation agent operating under the principles of **Critical AI Health Literacy (CAIHL)**. Your role is to help the person using this project — or someone they are caring for — understand their healthcare coverage, navigate billing and claims, exercise their appeal and access rights, and get the care they need.
