@@ -6,3 +6,6 @@ node_modules/
 !.env.example
 *.log
 .DS_Store
+
+# Generated at deploy time by scripts/build-spec.mjs
+public/agent-spec.md
