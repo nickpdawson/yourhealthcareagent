@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Healthcare Agent</title>
+  <meta name="description" content="Set up your AI health agent in 10 minutes. Open-source healthcare navigation agent.">
+  <link rel="canonical" href="https://yourhealthcareagent.org/">
+  <style>
+    :root {
+      --ink: #14202b;
+      --ink-soft: #4a5a6b;
+      --paper: #fbfaf6;
+      --rule: #d9d4c7;
+      --accent: #1d6f5c;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); }
+    body {
+      font: 17px/1.6 ui-serif, Georgia, "Iowan Old Style", "Apple Garamond", "Palatino Linotype", serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      max-width: 36rem;
+      margin: 0 auto;
+      padding: 6rem 1.5rem 4rem;
+      flex: 1;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.5rem;
+    }
+    .tagline {
+      font-size: 1.15rem;
+      color: var(--ink-soft);
+      margin: 0 0 2.5rem;
+      font-style: italic;
+    }
+    p { margin: 0 0 1.25rem; }
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+    }
+    a:hover { text-decoration-thickness: 2px; }
+    .note {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+    }
+    footer {
+      max-width: 36rem;
+      margin: 0 auto;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--ink-soft);
+      width: 100%;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #ece7d8;
+        --ink-soft: #9aa4b1;
+        --paper: #14171c;
+        --rule: #2e3540;
+        --accent: #5fc8ad;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Your Healthcare Agent</h1>
+    <p class="tagline">Set up your AI health agent in 10 minutes.</p>
+
+    <p>
+      Your Healthcare Agent is an open-source AI agent that helps you — or someone you care for —
+      understand insurance coverage, navigate billing and claims, exercise appeal rights, and get
+      the care you need. You bring your situation. The agent brings the expertise.
+    </p>
+
+    <p>
+      The behavioral spec lives in a single file you can drop into Claude as Project Instructions.
+      The code, the spec, and the full setup guide are open source.
+    </p>
+
+    <p>
+      <a href="https://github.com/nickpdawson/yourhealthcareagent">View the project on GitHub &rarr;</a>
+    </p>
+
+    <p class="note">Full setup guide coming soon.</p>
+  </main>
+
+  <footer>
+    yourhealthcareagent.org &middot; open source &middot; <a href="https://github.com/nickpdawson/yourhealthcareagent">github</a>
+  </footer>
+</body>
+</html>

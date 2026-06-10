@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "yourhealthcareagent-site",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+
+  // Uncomment once yourhealthcareagent.org is on Cloudflare nameservers
+  // and the zone has been added to this account:
+  // ,"routes": [
+  //   { "pattern": "yourhealthcareagent.org", "custom_domain": true },
+  //   { "pattern": "www.yourhealthcareagent.org", "custom_domain": true }
+  // ]
+}
